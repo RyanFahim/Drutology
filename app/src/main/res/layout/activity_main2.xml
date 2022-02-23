@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical"
+    >
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="100dp"
+        android:layout_gravity="center"
+        android:id="@+id/checkBtn"
+        android:text="Check Speed"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+
+        android:background="@drawable/custom_btn"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/network_info"
+        android:drawableStart="@drawable/ic_baseline_signal_cellular_alt_24"
+        android:drawableLeft="@drawable/ic_baseline_signal_cellular_alt_24"
+        android:drawablePadding="5dp"
+        android:text="Network"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/downSpeed"
+        android:drawableStart="@drawable/ic_baseline_speed_24"
+        android:drawableLeft="@drawable/ic_baseline_speed_24"
+        android:drawablePadding="5dp"
+        android:text="Speed"/>
+    <TextView
+        android:id="@+id/text_location"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:drawableStart="@drawable/ic_baseline_location_on_24"
+        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+        android:drawablePadding="5dp"
+        android:text="Current Location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
